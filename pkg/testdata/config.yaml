@@ -1,0 +1,6 @@
+environment: "test"
+conf:
+  TELEGRAM_TOKEN: "test"
+  POSTGRES_URL: "test"
+  REDIS_URL: "test"
+  MONGODB_URL: "test"

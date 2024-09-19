@@ -1,0 +1,9 @@
+environment: "local"
+conf:
+  TELEGRAM_TOKEN: "7575114381:AAHfRVAJN_Ud7qpIx4Iv8hW6FmoK2beXkXE"
+  POSTGRES_URL: "postgres://admin:admin@postgres:5432/telegram_db?sslmode=disable"
+  REDIS_URL: "redis://redis:6379"
+  MONGODB_URL: "mongodb://mongodb:27017"
+  SUPPORT_ADMIN_CHAT_ID: 5001897546
+  IT_ADMIN_CHAT_ID: 5627846893
+  BILLING_ADMIN_CHAT_ID: 5627846893

@@ -1,0 +1,17 @@
+version: '3'
+
+tasks:
+  build-bot:
+    desc: Build the telegram bot
+    cmds:
+      - docker-compose build
+
+  run-bot:
+    desc: Run the telegram bot
+    cmds:
+      - docker-compose up -d
+
+  cleanup:
+    desc: Remove Docker images and network
+    cmds:
+      - docker-compose down
